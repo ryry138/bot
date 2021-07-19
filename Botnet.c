@@ -8,11 +8,8 @@ import threading
 import getpass
 import os
 
-# "CNC" Powered by Ryan <3
-
-while True:
-		bots = (random.randint(100,739))
-		sys.stdout.write("\x1b]2;Itami. | Devices: [{}] | Spoofed Servers [19] | Server Units [8] | Clients: [18]\x07".format (bots))
+# "CNC" Powered by Ryan
+sys.stdout.write("\x1b]2;Itami. | Devices: [{}] | Spoofed Servers [19] | Server Units [8] | Clients: [18]\x07".format (bots))
 
 methods = """\033[35m
 ╔══════════════════════════════════════════════════════╗
